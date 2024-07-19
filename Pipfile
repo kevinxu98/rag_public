@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+mypy = "*"
+uvicorn = "*"
+pydantic = "*"
+openai = "*"
+pypdf2 = "*"
+pytesseract = "*"
+sqlalchemy = "*"
+pgvector = "*"
+sqlalchemy-utils = "*"
+psycopg2 = "*"
+nltk = "*"
+pymupdf = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+
+[scripts]
+start = "fastapi dev main.py"
+build = "mypy ."

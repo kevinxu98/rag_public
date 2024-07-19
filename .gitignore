@@ -1,0 +1,18 @@
+# Ignore venv
+.venv/
+.mypy_cache/
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore .DS_Store files
+.DS_Store
+
+# Ignore .env files
+.env
+
+# Ignore .vscode files
+.vscode/
+
+# Ignore jetbrains files
+.idea/
